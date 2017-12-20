@@ -1,0 +1,8 @@
+
+/* 3.16.17 wrote the below to hide the caption box in mobile. Not sure if CSS or PHP is ultimately handling the responsive scaling, but this works */
+
+@media only screen and (max-device-width: 480px) {
+  .wp-caption-text {
+    visibility: hidden;
+  }
+}
